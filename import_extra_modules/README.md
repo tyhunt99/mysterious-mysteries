@@ -58,4 +58,5 @@ module.submodule.func() . # does not work
 submodule.func()  # works
 ```
 
+## Conclusion
 So python will apparently add it to the top level module object if it exists.
