@@ -31,7 +31,7 @@ module.submodule.func()
 
 This did not work as expected. Upon inspection the `module` was not importing `submodule` in its `__initi__.py` so it was not being exposed. 
 
-## Qurik
+## Quirk
 
 The quirk comes out when I account for this. As expected in an interactive shell running:
 ```
