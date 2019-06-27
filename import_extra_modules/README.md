@@ -58,5 +58,13 @@ module.submodule.func() . # does not work
 submodule.func()  # works
 ```
 
+It was also noted this worked:
+```
+import module.submodule
+
+module.submodule.func() . # works
+module.anothersubmodule.func()  # works assuming this is exposed in init
+```
+
 ## Conclusion
 So python will apparently add it to the top level module object if it exists.
